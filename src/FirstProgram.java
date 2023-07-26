@@ -14,7 +14,6 @@ public class FirstProgram {
         String text = "Olá\t";
         int[] array = {10, 20, 30, 40};
         // "\\S" remove todos os espaços em branco
-
         text += "Mundo";
         text += "!";
 
