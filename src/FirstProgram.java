@@ -25,7 +25,6 @@ public class FirstProgram {
         System.out.println(bool);
 
         // 2 TIPOS DE ERROS
-
         // ERRO DE COMPILAÇÃO
         System.out.println(text);
         // ERRO DE EXECUÇÃO (Exception)
@@ -33,7 +32,6 @@ public class FirstProgram {
         for (int i = 0; i < array.length; i++){
             System.out.printf("Valor do array (%d): %d \n", i, array[i]); //printf serve para concatenar
         }
-
         calc(11, 4); // x, y: argumentos
         calc(5, 7);
         calc(8, 4);
@@ -41,12 +39,10 @@ public class FirstProgram {
     }
     static void calc(int x, int y){ // x, y: parâmetros
         System.out.println("\n-----------------");
-
         System.out.println( x + y);
         System.out.println( x - y);
         System.out.println( x / y);
         System.out.println( x * y);
-
         System.out.println("\n-----------------");
     }
 }
