@@ -25,6 +25,7 @@ public class FirstProgram {
         System.out.println(bool);
 
         // 2 TIPOS DE ERROS
+
         // ERRO DE COMPILAÇÃO
         System.out.println(text);
         // ERRO DE EXECUÇÃO (Exception)
